@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-image: url("./Resources/background.jpg");
+  background-size: cover;        /* fills screen */
+  background-position: center;   /* stays centered */
+}
+
+
+
+/* Main wrapper */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.buttons {
+    margin: 40px;
+    gap: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  
+}
+
+.disappear {
+  color: pink ;
+  font-size: 150%;
+   font-family: Arial Black, sans-serif;
+   font-weight: 100;
+}
+
+h1 {
+    margin: 15%;
+}
+
+.wizard {
+  width: 100%;
+  height: 100%;
+}
+
+#wizard-container {
+  width:100%;
+  padding: 16px;
+
+}
+
+.images {
+  width: 50%;
+  height: auto;
+}
+
+.sad {
+    width: 45%;
+    height: auto;
+
+}
+.yes {
+    width: 80%;
+    height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  padding: 20px 40px;
+  border-radius: 8px;
+   font-family: Arial Black, sans-serif;
+   font-weight: 60;
+   font-size: 20px;
+}
+
+.husband-link {
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 330%;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+#Wedding2 {
+  background-color: transparent;
+}
+
+#Wedding3 {
+  background-color: transparent;
+}
+
+#next {
+  background-color: transparent;
+}
